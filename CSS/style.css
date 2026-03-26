@@ -1,0 +1,103 @@
+body {
+            background-color: #1a1a1a;
+            color: #d1d1d1;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background-image: radial-gradient(#333 10%, transparent 10%);
+            background-size: 20px 20px; /* Grid de sistema antigo */
+        }
+
+        /* A Janela do Sistema */
+        .window {
+            width: 80%;
+            max-width: 800px;
+            background: #c0c0c0; /* Cinza clássico Windows */
+            border: 3px solid;
+            border-color: #fff #808080 #808080 #fff;
+            box-shadow: 10px 10px 0px #000;
+        }
+
+        .title-bar {
+            background: linear-gradient(90deg, #000080, #1084d0);
+            padding: 5px;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content {
+            padding: 20px;
+            color: #000;
+            height: 400px;
+            overflow-y: auto;
+            background: #fff;
+            margin: 10px;
+            border: 2px inset #808080;
+        }
+
+        /* Elementos MS Paint */
+        h1 {
+            font-size: 24px;
+            text-decoration: underline;
+            color: #000;
+            margin-top: 0;
+        }
+
+        .glitch-text {
+            color: #ff00ff; /* Cor Pink Valley */
+            font-weight: bold;
+            text-shadow: 2px 2px #00ffff;
+        }
+
+        .status-bar {
+            background: #c0c0c0;
+            border-top: 2px solid #808080;
+            padding: 5px;
+            font-size: 12px;
+            color: #000;
+        }
+
+        /* Botões Estilo Retrô */
+        button {
+            background: #c0c0c0;
+            border: 2px solid;
+            border-color: #fff #808080 #808080 #fff;
+            padding: 5px 15px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        button:active {
+            border-color: #808080 #fff #fff #808080;
+        }
+
+        .folder-icon {
+            width: 50px;
+            height: 50px;
+            background: #ffd700;
+            margin-bottom: 5px;
+            border: 2px solid #000;
+            display: inline-block;
+        }
+
+        .terminal {
+            background: #000;
+            color: #0f0;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        details{
+            color: #ff00ff; /* Cor Pink Valley */
+            font-weight: bold;
+            text-shadow: 2px 2px #00ffff;
+        }
